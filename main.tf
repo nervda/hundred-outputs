@@ -25,6 +25,7 @@ variable "my-visible-key" {
 output "output1" {
     description = "make hay"
     value = var.mykey
+    sensitive = true
 }
 
 output "output2" {
