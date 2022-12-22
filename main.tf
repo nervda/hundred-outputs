@@ -15,6 +15,11 @@ resource "null_resource" "delayc" {
 }
 }
 
+variable "mykey" {
+}
+
+variable "my-visible-key" {
+}
 
 
 output "output1" {
