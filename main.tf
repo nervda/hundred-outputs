@@ -15,13 +15,16 @@ resource "null_resource" "delayc" {
 }
 }
 
+
+
 output "output1" {
     description = "make hay"
-    value = "Octave"
+    value = var.mykey
 }
+
 output "output2" {
     description = "make hay"
-    value = "Octave"
+    value = var.my-visible-key
 }
 output "output3" {
     description = "make hay"
